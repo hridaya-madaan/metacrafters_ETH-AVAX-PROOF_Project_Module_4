@@ -12,7 +12,7 @@ contract Assessment is ERC20 {
     // Event to log item redemption
     event ItemRedeemed(address indexed user, uint256 indexed itemId, uint256 cost);
 
-    constructor() ERC20("Anshuman Roshan", "AR") {
+    constructor() ERC20("Hridaya-madaan", "HM") {
         owner = msg.sender;
         
         // Initialize redeemable items
@@ -74,4 +74,5 @@ contract Assessment is ERC20 {
         require(value <= balanceOf(msg.sender), "Insufficient balance");
         _burn(msg.sender, value);
     }
-}
+} 
+//hridaya madaan phri2898@gmail.com 
